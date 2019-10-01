@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NDCameraResultActivity">
+
+    <ImageView
+        android:id="@+id/nd_camera_title_result"
+        android:layout_alignParentTop="true"
+        android:layout_width="100dp"
+        android:layout_height="24.7dp"
+        android:layout_marginLeft="34.3dp"
+        android:layout_marginTop="50.7dp"
+        android:src="@drawable/tlftmqahem_text"/>
+
+    <ImageView
+        android:id="@+id/result_type_text1"
+        android:layout_below="@id/nd_camera_title_result"
+        android:layout_width="83dp"
+        android:layout_height="15.7dp"
+        android:layout_marginLeft="34.3dp"
+        android:src="@drawable/dlstlrehlsrmfwk_text"
+        android:layout_marginTop="33.7dp"
+        />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_type_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/box"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="없음"
+            android:textSize="20sp"/>
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/result_type_text2"
+        android:layout_width="82.3dp"
+        android:layout_height="15.7dp"
+        android:src="@drawable/dlstlrwotleh_text"
+        android:layout_marginLeft="33.7dp"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

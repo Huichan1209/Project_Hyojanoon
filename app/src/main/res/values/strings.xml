@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Project_Hyojanoon</string>
+    <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
+
+    <string name="loading_message">Uploading image. Please wait.</string>
+</resources>

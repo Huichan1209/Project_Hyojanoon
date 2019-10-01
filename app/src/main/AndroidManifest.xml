@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyojanoon.project_hyojanoon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_hyojanoon"
+        android:label="효자눈"
+        android:roundIcon="@mipmap/ic_launcher_hyojanoon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.hyojanoon.project_hyojanoon.NDCameraResultActivity"></activity>
+        <activity android:name="com.hyojanoon.project_hyojanoon.NDSettingActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.NDCameraActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.NDStudyActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.NDMainActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.TrainingActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.settingActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.WordLearnActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.LastLearnActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.SecondLearnActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.LoadingActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.FirstLearnActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.LearnActivity" />
+        <activity android:name="com.hyojanoon.project_hyojanoon.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NDSettingActivity">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/nd_setting_title"
+        android:layout_width="46dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="34.3dp"
+        android:layout_marginTop="50.7dp"
+        android:src="@drawable/setting_text"/>
+
+    <ImageView
+        android:id="@+id/tts_volum_setting_text"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@id/nd_setting_title"
+        android:layout_width="126dp"
+        android:layout_height="19dp"
+        android:src="@drawable/tts_volum_setting_text" />
+
+    <ImageView
+        android:id="@+id/tts_ton_setBtn_1"
+        android:layout_below="@id/tts_volum_setting_text"
+        android:layout_marginTop="26.3dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="95.3dp"
+        android:layout_height="28dp"
+        android:src="@drawable/shvrp_white"/>
+
+    <ImageView
+        android:id="@+id/tts_ton_setBtn_2"
+        android:layout_width="95.3dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="178dp"
+        android:layout_toRightOf="@id/tts_ton_setBtn_1"
+        android:src="@drawable/skwrp_orange" />
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/tts_threhwhwjf_text"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@id/tts_ton_setBtn_2"
+        android:layout_width="126dp"
+        android:layout_height="19dp"
+        android:src="@drawable/ttsthrehwhwjf_text" />
+
+    <ImageView
+        android:id="@+id/tts_speed_setBtn_1"
+        android:layout_below="@id/tts_threhwhwjf_text"
+        android:layout_marginTop="26.3dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="95.3dp"
+        android:layout_height="28dp"
+        android:src="@drawable/qkfma_white"/>
+
+
+    <ImageView
+        android:id="@+id/tts_speed_setBtn_2"
+        android:layout_width="95.3dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="309dp"
+        android:layout_toRightOf="@id/mode_setBtn_1"
+        android:src="@drawable/smfla_normal" />
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/changemode_text"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@id/tts_speed_setBtn_2"
+        android:layout_width="126dp"
+        android:layout_height="19dp"
+        android:src="@drawable/ahemqusghks_text" />
+
+    <ImageView
+        android:id="@+id/mode_setBtn_1"
+        android:layout_below="@id/changemode_text"
+        android:layout_marginTop="26.3dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="95.3dp"
+        android:layout_height="28dp"
+        android:src="@drawable/wkddodls_orange"/>
+
+    <ImageView
+        android:id="@+id/mode_setBtn_2"
+        android:layout_width="95.3dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="439dp"
+        android:layout_toRightOf="@id/mode_setBtn_1"
+        android:src="@drawable/qlwkddodls_white" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 하단바 -->
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56.3dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hyojanoonOrange"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/study_Linear_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginRight="30dp">
+
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:id="@+id/study_icon_setting"
+                android:layout_width="16.7dp"
+                android:layout_height="24dp"
+                android:src="@drawable/studyicon" />
+
+            <ImageView
+                android:src="@drawable/text_study"
+                android:layout_width="16dp"
+                android:layout_height="8.7dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar"
+            android:layout_marginRight="30dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/camera_Linear_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:id="@+id/camera_icon_setting"
+                android:layout_width="16.7dp"
+                android:layout_height="24dp"
+                android:src="@drawable/cameraicon" />
+
+            <ImageView
+                android:src="@drawable/text_insik"
+                android:layout_width="16dp"
+                android:layout_height="8.7dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar"
+            android:layout_marginRight="30dp"/>
+
+        <LinearLayout
+            android:id="@+id/setting_Linear_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:id="@+id/setting_icon_setting"
+                android:layout_width="16.7dp"
+                android:layout_height="24dp"
+                android:src="@drawable/settingicon" />
+
+            <ImageView
+                android:id="@+id/setting_text"
+                android:src="@drawable/text_setting"
+                android:layout_width="16dp"
+                android:layout_height="8.7dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

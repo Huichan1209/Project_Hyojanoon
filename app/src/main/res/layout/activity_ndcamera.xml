@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NDCameraActivity">
+
+    <ImageView
+        android:id="@+id/nd_camera_title"
+        android:layout_alignParentTop="true"
+        android:layout_width="100dp"
+        android:layout_height="24.7dp"
+        android:layout_marginLeft="34.3dp"
+        android:layout_marginTop="50.7dp"
+        android:src="@drawable/tlftmqahem_text"/>
+
+    <ImageView
+        android:id="@+id/nd_ocr_btn"
+        android:layout_width="167.7dp"
+        android:layout_height="25.7dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/answkdlstlr_text"
+        android:layout_below="@id/nd_camera_title"
+        android:layout_marginTop="123.7dp"/>
+    
+    <ImageView
+        android:id="@+id/nd_training_bar"
+        android:layout_below="@id/nd_ocr_btn"
+        android:layout_marginTop="75.3dp"
+        android:layout_width="187dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/akreorl"/>
+
+    <ImageView
+        android:id="@+id/nd_object_reader_btn"
+        android:layout_width="167.7dp"
+        android:layout_height="25.7dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tkanfdlstlr_text"
+        android:layout_below="@id/nd_training_bar"
+        android:layout_marginTop="75.3dp"/>
+    
+    
+    
+    
+    
+    
+    
+    <!-- 하단바 -->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56.3dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hyojanoonOrange"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/study_Linear_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginRight="30dp">
+
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:id="@+id/study_icon_camera"
+                android:layout_width="16.7dp"
+                android:layout_height="24dp"
+                android:src="@drawable/studyicon" />
+
+            <ImageView
+                android:src="@drawable/text_study"
+                android:layout_width="16dp"
+                android:layout_height="8.7dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar"
+            android:layout_marginRight="30dp"/>
+
+        <LinearLayout
+            android:id="@+id/camera_Linear_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:id="@+id/camera_icon_camera"
+                android:layout_width="16.7dp"
+                android:layout_height="24dp"
+                android:src="@drawable/cameraicon" />
+
+            <ImageView
+                android:id="@+id/camera_text"
+                android:src="@drawable/text_insik"
+                android:layout_width="16dp"
+                android:layout_height="8.7dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar"
+            android:layout_marginRight="30dp"/>
+
+        <LinearLayout
+            android:id="@+id/setting_Linear_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+
+            <ImageView
+                android:layout_marginTop="3dp"
+                android:id="@+id/setting_icon_camera"
+                android:layout_width="16.7dp"
+                android:layout_height="24dp"
+                android:src="@drawable/settingicon" />
+
+            <ImageView
+                android:src="@drawable/text_setting"
+                android:layout_width="16dp"
+                android:layout_height="8.7dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
