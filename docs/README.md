@@ -20,8 +20,8 @@ https://biz.chosun.com/site/data/html_dir/2019/11/22/2019112202793.html
 https://www.facebook.com/ProjectHyojanoon?mibextid=ZbWKwL
 
 ## 팀 구성
-기획, Android - 정희찬  
-하드웨어, 임베디드 - 정지우  
+기획, Android - 정희찬 (https://github.com/Huichan1209)  
+하드웨어, 임베디드 - 정지우 (https://github.com/Kamilake)  
 UI 디자인, 영상 제작 - 도승우  
 
 ## 개발 상세
